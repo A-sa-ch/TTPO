@@ -1,0 +1,216 @@
+@font-face{
+    font-family: displayRegular;
+    src: url(../fonts/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+body{
+    font-family: displayRegular;
+    margin: 0px;
+}
+h2{
+    font-size: 41px;
+    margin: 0px;
+}
+.container{
+    margin: 0px auto;
+    width: 1200px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 129px;
+}
+
+.offer{
+    text-align: center;
+    margin-top: 205px;
+}
+
+.offer p{
+    font-size: 66px;
+    line-height: 106%;
+    width: 643px;
+    display: block;
+    margin: 0px auto;
+}
+
+.offer span{
+    font-size: 26px;
+    display: block;
+    margin-top: 25px;
+
+}
+.offer button{
+    width: 240px;
+    padding: 15px 0px ;
+    margin-top: 50px;
+    /* border-radius: 0%; */
+
+}
+
+.style h2{
+    margin-top: 50px;
+}
+.style p{
+ width: 295px;
+ text-align: left;
+ margin-top: 50px;
+}
+.style button{
+    width: 240px;
+    margin-top: 25px;
+    padding: 15px 0px ;
+    /* border-radius: 0%; */
+}
+
+#rectangle {
+    width: 570px;
+    height: 400px;
+    background: #4da1f7;
+}
+
+.stylist{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.bestproducts{
+    margin-top: 200px;
+}
+.categories{
+    margin-top: 50px ;
+    display: flex;
+    justify-content: space-between;
+}
+.categories p{
+    margin-top: 10px;
+}
+
+.new{
+    margin-top: 200px;
+}
+
+.firstline{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondline{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clubcontent p{
+    width: 356px;
+    margin-top: 25px;
+}
+
+.clubcontent button{
+    width: 240px;
+    margin-top: 25px;
+    padding: 15px 0px ;
+    /* border-radius: 0%; */
+}
+
+.club{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.inst{
+    margin-top: 200px;
+}
+.instcontent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oportunities{
+    display: flex;
+    align-items: center;
+    width: 50px;
+}
+
+.oportunities span{
+    width: 400px;
+}
+
+.fotermenu{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.fotermenu ul{
+    list-style: none;
+    padding: 0px;
+    line-height: 25px;
+    margin: 0px;
+}
+
+.socialnetw{
+    display: flex;
+    justify-content: space-between;
+    width: 95px;
+}
+
+.f button{
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.vk button{
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.footercontent p{
+    width: 510px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: #121212 no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+    color: white;
+    margin-top: 200px;
+    padding: 60px 0px;
+}
+
+.dropMenu{
+    display: none;
+}
+.dropMenu.active{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.dropMenu ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.dropMenu li{
+    margin: 15px 0px;
+}
